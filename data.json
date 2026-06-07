@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "name": "Jane Doe",
+    "title": "Minimalist Frontend Developer",
+    "bio": "Kullanıcı deneyimine odaklanan, temiz ve sürdürülebilir kod yazmayı seven bir arayüz geliştiricisiyim. Pastel tonlar ve sadelik vazgeçilmezim.",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80",
+    "socials": {
+      "github": "#",
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  "projects": [
+    {
+      "title": "E-Ticaret Arayüzü",
+      "description": "Vue.js ve Tailwind CSS kullanılarak geliştirilmiş, minimalist tasarıma sahip modern bir e-ticaret ön yüzü.",
+      "link": "#"
+    },
+    {
+      "title": "Task Management App",
+      "description": "Sürükle-bırak özellikli, pastel temalı ve lokal depolama destekli iş yönetim uygulaması.",
+      "link": "#"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "CSS'te Minimalizm ve Pastel Paletler",
+      "excerpt": "Arayüz tasarımında göz yormayan pastel renklerin kullanımı ve minimalist yaklaşımın kullanıcı deneyimine etkisi.",
+      "date": "25 Mayıs 2026",
+      "content": "Pastel renkler, doygunluğu düşük ve beyaz oranı yüksek tonlardır. Bu tonlar kullanıcıda sakinlik hissi uyandırır..."
+    },
+    {
+      "id": 2,
+      "title": "Neden SPA (Single Page Application)?",
+      "excerpt": "Modern web uygulamalarında tek sayfa mimarisinin getirdiği avantajlar ve performans optimizasyonları.",
+      "date": "10 Nisan 2026",
+      "content": "SPA mimarisi, sayfa yenilenmelerini ortadan kaldırarak masaüstü uygulama akıcılığında bir web deneyimi sunar..."
+    }
+  ]
+}

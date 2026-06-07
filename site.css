@@ -1,0 +1,48 @@
+:root {
+    --bg-pastel: #f7f9fa;
+    --card-pastel-1: #e8f1f5;
+    --card-pastel-2: #f3ebe1;
+    --text-dark: #333d42;
+    --text-muted: #6c757d;
+}
+
+body {
+    background-color: var(--bg-pastel);
+    color: var(--text-dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link {
+    color: var(--text-muted);
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--text-dark) !important;
+    font-weight: 600;
+}
+
+.project-card {
+    background-color: var(--card-pastel-1);
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+}
+
+.blog-card {
+    background-color: var(--card-pastel-2);
+    border: none;
+    border-radius: 12px;
+}
+
+.spa-section {
+    display: none;
+}
+
+.spa-section.active {
+    display: block;
+}
